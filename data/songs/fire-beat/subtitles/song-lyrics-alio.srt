@@ -1,0 +1,31 @@
+1
+00:00:14,74 --> 00:00:16,59
+Who is the leader of the heroes?
+
+2
+00:00:16,60 --> 00:00:18,49
+Who faces the difficulties?
+
+3
+00:00:18,50 --> 00:00:20,39
+Who is he?
+
+4
+00:00:20,40 --> 00:00:22,19
+Ali Alafandy.
+
+5
+00:00:29,54 --> 00:00:31,39
+Who runs fast?
+
+6
+00:00:31,40 --> 00:00:33,20
+Who is as swift as lighting?
+
+7
+00:00:33,21 --> 00:00:34,99
+Who is he?
+
+8
+00:00:35,00 --> 00:00:36,89
+Ali Alafandy.

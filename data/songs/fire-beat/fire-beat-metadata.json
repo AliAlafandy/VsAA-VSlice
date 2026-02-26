@@ -1,0 +1,66 @@
+{
+  "version": "2.2.4",
+  "songName": "Fire-Beat",
+  "artist": "Ali Alafandy",
+  "charter": "Ali Alafandy",
+  "divisions": 96,
+  "looped": false,
+  "offsets": {
+    "instrumental": 0,
+    "altInstrumentals": { },
+    "vocals": { },
+    "altVocals": { }
+  },
+  "playData": {
+    "songVariations": [
+      "alio",
+      "pico"
+    ],
+    "difficulties": [
+      "normal",
+      "hard",
+      "easy"
+    ],
+    "characters": {
+      "player": "bf",
+      "girlfriend": "gf",
+      "opponent": "allawy",
+      "instrumental": "",
+      "altInstrumentals": [ "pico" ],
+      "opponentVocals": [
+        "allawy"
+      ],
+      "playerVocals": [
+        "bf"
+      ]
+    },
+    "stage": "street",
+    "noteStyle": "alio",
+    "album": "yoovol1",
+    "stickerPack": "yoo",
+    "ratings": {
+      "easy": 3,
+      "hard": 8,
+      "normal": 5
+    },
+    "previewStart": 0,
+    "previewEnd": 0
+  },
+  "generatedBy": "Friday Night Funkin' - v0.6.4",
+  "timeFormat": "ms",
+  "timeChanges": [
+    {
+      "t": 0,
+      "b": 0,
+      "bpm": 130,
+      "n": 4,
+      "d": 4,
+      "bt": [
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ]
+}

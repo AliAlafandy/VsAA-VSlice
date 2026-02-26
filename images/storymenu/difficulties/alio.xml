@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="alio.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="بدون اسم173_202406211433200000" x="0" y="71" width="174" height="71" frameX="2" frameY="2" frameWidth="170" frameHeight="67"/>
+	<SubTexture name="بدون اسم173_202406211433220000" x="0" y="0" width="174" height="71" frameX="2" frameY="2" frameWidth="170" frameHeight="67"/>
+</TextureAtlas>

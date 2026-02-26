@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="allawypixel.png">
+	<!-- Created by Ali Alafandy -->
+	<!-- https://youtube.com/@alialafandy -->
+	<SubTexture name="idle0000" x="0" y="0" width="38" height="50"/>
+	<SubTexture name="confirm0000" x="40" y="0" width="38" height="50"/>
+	<SubTexture name="confirm0001" x="80" y="0" width="91" height="50"/>
+	<SubTexture name="confirm0002" x="173" y="0" width="39" height="50"/>
+</TextureAtlas>

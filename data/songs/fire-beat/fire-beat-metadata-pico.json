@@ -1,0 +1,33 @@
+{
+	"timeFormat": "ms",
+	"artist": "Ali Alafandy",
+	"charter": "Ali Alafandy",
+	"playData": {
+		"album": "yoovol1",
+		"stage": "dark",
+		"noteStyle": "alio",
+		"stickerPack": "yoo",
+		"difficulties": [
+			"normal",
+			"hard",
+			"easy"
+		],
+		"characters": {
+			"instrumental": "pico",
+			"girlfriend": "nene",
+			"opponent": "allawy",
+			"player": "pico-playable"
+		},
+		"ratings": {
+			"easy": 4,
+			"hard": 9,
+			"normal": 7
+		}
+	},
+	"songName": "Fire-Beat (Pico Mix)",
+	"timeChanges": [
+		{"t": 0, "bpm": 130}
+	],
+	"generatedBy": "Friday Night Funkin' - v0.8.1",
+	"version": "2.2.3"
+}

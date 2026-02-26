@@ -1,0 +1,39 @@
+import funkin.modding.module.Module;
+import funkin.play.PlayState;
+
+class HurtNote extends Module
+{
+	function new(){
+		super("Hurt Note");
+	}
+
+	function onNoteHit(callback)
+	{
+		if (callback.note.noteData.kind == "Hurt Note")
+		{
+			if (callback.note.noteData.getStrumlineIndex() > 0)
+			{
+				callback.cancelEvent();
+				return;
+			}
+			
+			PlayState.instance.health = -1;
+		}
+	}
+
+	function onNoteIncoming(callback)
+	{
+		if (callback.note.noteData.kind == "Hurt Note")
+		{
+			callback.note.setHue(-272);
+		}
+	}
+
+	function onNoteMiss(callback)
+	{
+		if (callback.note.noteData.kind == "Hurt Note")
+		{
+			callback.cancelEvent();
+		}
+	}
+}

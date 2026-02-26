@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "name": "Ali Alafandy",
+  "titleAsset": "storymenu/titles/weeky",
+  "visible": false,
+  "props": [],
+  "background": "#51CFF9",
+  "songs": ["MONTAGEM-XONADA"]
+}

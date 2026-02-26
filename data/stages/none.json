@@ -1,0 +1,41 @@
+{
+    "props": [],
+    "cameraZoom": 0.9,
+    "version": "1.0.0",
+    "characters": {
+        "bf": {
+            "zIndex": 300,
+            "position": [
+                870,
+                700
+            ],
+            "cameraOffsets": [
+                -100,
+                -100
+            ]
+        },
+        "dad": {
+            "zIndex": 200,
+            "position": [
+                150,
+                810
+            ],
+            "cameraOffsets": [
+                150,
+                -100
+            ]
+        },
+        "gf": {
+            "zIndex": 100,
+            "cameraOffsets": [
+                0,
+                0
+            ],
+            "position": [
+                550,
+                670
+            ]
+        }
+    },
+    "name": "NONE"
+}

@@ -1,0 +1,51 @@
+{
+  "props": [
+    {
+      "zIndex": 10,
+      "position": [-950.0, -550.0],
+      "scale": [1.2, 1.2],
+      "name": "sky",
+      "isPixel": false,
+      "assetPath": "neonSky",
+      "scroll": [0.9, 0.9]
+    },
+    {
+      "zIndex": 20,
+      "position": [-950.0, -550.0],
+      "scale": [1.2, 1.2],
+      "name": "street",
+      "isPixel": false,
+      "assetPath": "neonStreet",
+      "scroll": [0.9, 0.9]
+    },
+    {
+      "zIndex": 30,
+      "position": [-950.0, -550.0],
+      "scale": [1.2, 1.2],
+      "name": "lighting",
+      "isPixel": false,
+      "assetPath": "neonLighting",
+      "scroll": [0.9, 0.9]
+    }
+  ],
+  "cameraZoom": 0.63,
+  "version": "1.0.0",
+  "characters": {
+    "bf": {
+      "zIndex": 300,
+      "position": [870, 770],
+      "cameraOffsets": [-100, -100]
+    },
+      "dad": {
+      "zIndex": 200,
+      "position": [150, 800],
+      "cameraOffsets": [150, -100]
+    },
+    "gf": {
+      "zIndex": 100,
+      "cameraOffsets": [0, 0],
+      "position": [-550, -670]
+    }
+  },
+  "name": "Neon Stage"
+}

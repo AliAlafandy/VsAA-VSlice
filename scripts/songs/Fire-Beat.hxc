@@ -1,0 +1,34 @@
+import funkin.play.song.Song;
+import funkin.play.PlayState;
+import funkin.graphics.FunkinSprite;
+import flixel.tweens.FlxTween;
+
+class FireBeat extends Song {
+
+    var blackScreen: FunkinSprite;
+
+    function new() {
+        super('Fire-Beat'); // <— your song name here!
+    }
+
+    public override function onCountdownStart(event:CountdownScriptEvent):Void {
+        super.onCountdownStart(event);
+
+        blackScreen = new FunkinSprite(0, 0);
+        blackScreen.makeSolidColor(10000, 10000, 0xFF000000);
+        blackScreen.alpha = 1;
+        blackScreen.scrollFactor.set(0, 0);
+        blackScreen.cameras = [PlayState.instance.camGame];
+        blackScreen.zIndex = 999999;
+        PlayState.instance.add(blackScreen);
+        PlayState.instance.refresh();
+    }
+    
+    public override function onSongStart(event:SongTimeScriptEvent):Void {
+        super.onSongStart(event);
+
+        FlxTween.tween(blackScreen, { alpha: 0 }, 8, { }, function() { // <—  put the time you want the fade out to last for here!
+            PlayState.instance.remove(blackScreen, true);
+        });
+    }
+}

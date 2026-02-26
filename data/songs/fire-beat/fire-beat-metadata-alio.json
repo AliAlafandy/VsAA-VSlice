@@ -1,0 +1,27 @@
+{
+	"timeFormat": "ms",
+	"artist": "Ali Alafandy",
+	"charter": "Ali Alafandy",
+	"playData": {
+		"album": "yoovol1",
+		"stage": "neon",
+		"noteStyle": "alio",
+		"stickerPack": "yoo",
+		"difficulties": [ "alio" ],
+		"characters": {
+			"instrumental": "alio",
+			"girlfriend": "gf",
+			"opponent": "allawy-neon",
+			"player": "bf-neon"
+		},
+		"ratings": {
+			"alio": 11
+		}
+	},
+	"songName": "Fire-Beat Alio",
+	"timeChanges": [
+		{"t": 0, "bpm": 130}
+	],
+	"generatedBy": "Friday Night Funkin' - v0.6.4",
+	"version": "2.2.3"
+}

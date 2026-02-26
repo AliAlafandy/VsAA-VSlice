@@ -1,0 +1,74 @@
+{
+  "props": [
+    {
+      "zIndex": 10,
+      "position": [-950.0, -550.0],
+      "scale": [1.2, 1.2],
+      "name": "sky",
+      "isPixel": false,
+      "assetPath": "sky",
+      "scroll": [0.9, 0.9]
+    },
+    {
+      "zIndex": 20,
+      "position": [-950.0, -550.0],
+      "scale": [1.2, 1.2],
+      "name": "street",
+      "isPixel": false,
+      "assetPath": "street",
+      "scroll": [0.9, 0.9]
+    },
+    {
+      "zIndex": 30,
+      "position": [-950.0, -550.0],
+      "scale": [1.2, 1.2],
+      "name": "lighting",
+      "isPixel": false,
+      "assetPath": "lighting",
+      "scroll": [0.9, 0.9]
+    },
+    {
+      "danceEvery": 1,
+      "zIndex": 40,
+      "position": [-720.0, -500.0],
+      "scale": [1.0, 1.0],
+      "animType": "sparrow",
+      "name": "viewers",
+      "isPixel": false,
+      "startingAnimation": "Idle",
+      "assetPath": "viewers_assets",
+      "scroll": [0.9, 0.9],
+      "animations": [
+        {
+          "offsets": [0, 0],
+          "flipY": false,
+          "frameRate": 24,
+          "prefix": "idle beat name0",
+          "looped": true,
+          "flipX": false,
+          "name": "idle"
+        }
+      ]
+    }
+  ],
+  "cameraZoom": 0.63,
+  "version": "1.0.0",
+  "characters": {
+    "bf": {
+      "zIndex": 300,
+      "position": [870, 770],
+      "cameraOffsets": [-100, -100]
+    },
+      "dad": {
+      "zIndex": 200,
+      "position": [150, 810],
+      "cameraOffsets": [150, -100]
+    },
+    "gf": {
+      "zIndex": 100,
+      "cameraOffsets": [0, 0],
+      "position": [550, 670]
+    }
+  },
+  "name": "Street Stage"
+}
