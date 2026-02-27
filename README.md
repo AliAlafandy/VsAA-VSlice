@@ -1,5 +1,5 @@
 # Friday Night Funkin': Vs Ali Alafandy V-Slice
-[Logo](modLogo.png)
+[Logo](https://github.com/AliAlafandy/VsAA-VSlice/blob/main/modLogo.png)
 There is will be Psych Engine Port soon, Yoo Yoo Alio 😎.
 
 ## Download
